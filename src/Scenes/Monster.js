@@ -25,6 +25,7 @@ class Monster extends Phaser.Scene {
     create() {
         let my = this.my;   // create an alias to this.my for readability
 
+        
         // Create the main body sprite
         //
         // this.add.sprite(x,y, "{atlas key name}", "{name of sprite within atlas}")
