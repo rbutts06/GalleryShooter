@@ -21,7 +21,8 @@ let config = {
     },
     width: 800,
     height: 600,
-    scene: [Monster]
+    backgroundColor: '#066b21',
+    scene: [oneDim, restart]
 }
 
 const game = new Phaser.Game(config);
